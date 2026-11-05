@@ -9,5 +9,15 @@ package domen;
  * @author ninkovic
  */
 public class Mesto {
+    public int idMesto;
+    public String naziv;
+    public long postanskiBroj;
+
+    public Mesto(int idMesto, String naziv, long postanskiBroj) {
+        this.idMesto = idMesto;
+        this.naziv = naziv;
+        this.postanskiBroj = postanskiBroj;
+    }
+    
     
 }
